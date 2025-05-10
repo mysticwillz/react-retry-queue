@@ -1,6 +1,6 @@
-# 📦 retry-queue
+# 📦 react-retry-queue
 
-[![npm version](https://img.shields.io/npm/v/retry-queue.svg)](https://www.npmjs.com/package/retry-queue)
+[![npm version](https://img.shields.io/npm/v/react-retry-queue.svg)](https://www.npmjs.com/package/react-retry-queue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A lightweight React hook and utility to retry failed async actions automatically — ideal for handling failed requests, flaky connections, and offline scenarios.
@@ -22,7 +22,7 @@ A lightweight React hook and utility to retry failed async actions automatically
 ## 📦 Installation
 
 ```bash
-npm install retry-queue uuid
+npm install react-retry-queue uuid
 ```
 
 > 💡 `react` must be installed in your project. Compatible with React 17, 18, and 19.
@@ -35,7 +35,7 @@ npm install retry-queue uuid
 
 ```tsx
 import React from "react";
-import { useRetryQueue } from "retry-queue";
+import { useRetryQueue } from "react-retry-queue";
 
 const SaveButton = () => {
   const { enqueue } = useRetryQueue();
@@ -96,7 +96,7 @@ npm test
 ## 📁 Project Structure
 
 ```
-retry-queue/
+react-retry-queue/
 ├── src/
 │   ├── index.ts
 │   ├── queueManager.ts
