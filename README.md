@@ -1,6 +1,5 @@
 # 📦 react-retry-queue
 
-[![npm version](https://img.shields.io/npm/v/react-retry-queue.svg)](https://www.npmjs.com/package/react-retry-queue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A lightweight React hook and utility to retry failed async actions automatically — ideal for handling failed requests, flaky connections, and offline scenarios.
